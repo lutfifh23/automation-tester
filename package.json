@@ -1,0 +1,25 @@
+{
+  "name": "automation-tester",
+  "version": "1.0.0",
+  "description": "Automation tester using WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.0.4",
+    "@wdio/cli": "^9.0.7",
+    "@wdio/local-runner": "^9.0.7",
+    "@wdio/mocha-framework": "^9.0.6",
+    "@wdio/spec-reporter": "^9.0.7",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  }
+}
